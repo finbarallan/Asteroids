@@ -1,18 +1,31 @@
-## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+# Asteroids
+This objective of this project is to create a game which emulates Asteroids, the classic arcade game. The players ship flys through space destoying asteroids and the occasional alien ship. As the player advances through each levels the difficulty of the game increases, with more sophisticated enemies to destoy.
 
-## Folder Structure
+![](./img/asteroids.mp4)
+<!-- <video width="320" height="240">
+  <source src="./img/asteroids.mp4" type="video/mp4">
+</video> -->
 
-The workspace contains two folders by default, where:
+## Gameplay
+Launcing the application displys the main menu where players can begin the game, view high scores, read the rules, and learn the controls.
+![](./img/1-begin.png)
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+From the game screen players can move their ship, fire bullets, and hyperspace jump to a random location on the screen.
+![](./img/2-start.png)
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Players can shoot larger asteroids, causing them to split. At random intervals alien ships will appear and try to shoot the player.
+![](./img/3-gameplay.png)
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+As the player destroys asteroids and alien ships they will score points, earning an extra life for every 1000 points.
+![](./img/5-points.png)
 
-## Dependency Management
+The player enters a 3-second period of invulnerability after respawning to ensure they are given a chance to escape any immediate danger. 
+![](./img/6-invulnerability.png)
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+The game over screeen appears when the player runs out of lives, saving their name and score to the leaderboard and returning them to the main menu to play again.
+![](./img/7-game-over.png)
+
+## Languages & Frameworks
+<img src="https://ubiqum.com/assets/uploads/2021/12/learn-java-with-ubiqum-logo.png" alt="MarineGEO circle logo" style="width:147px;"/>
+<img src="https://img.shields.io/badge/apache_maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white" alt="MarineGEO circle logo" style="width:147px;"/>
