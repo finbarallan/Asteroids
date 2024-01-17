@@ -1,6 +1,6 @@
 
 # Asteroids
-This objective of this project is to create a game which emulates Asteroids, the classic arcade game. The players ship flys through space destoying asteroids and the occasional alien ship. As the player advances through each levels the difficulty of the game increases, with more sophisticated enemies to destoy.
+This objective of this project is to create a game which emulates Asteroids, the classic arcade game. The players ship flys through space destroying asteroids and the occasional alien ship. As the player advances through each levels the difficulty of the game increases, with more sophisticated enemies to destroy.
 
 https://github.com/finbarallan/Asteroids/assets/116646659/ff9111d2-be5b-4667-9bac-8d6b28cd10a6
 
